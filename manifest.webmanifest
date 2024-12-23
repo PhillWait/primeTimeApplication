@@ -1,8 +1,8 @@
 {
   "name": "Prime Time Application",
   "short_name": "PrimeTime",
-  "scope": "/phillwait.github.io/primTimeApplication/",
-  "start_url": "/phillwait.github.io/primTimeApplication/",
+  "scope": "/github.io/primTimeApplication/",
+  "start_url": "/github.io/primTimeApplication/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
