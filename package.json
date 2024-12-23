@@ -1,11 +1,12 @@
 {
   "name": "primte-time-client",
   "version": "0.0.0",
+  "homepage": "https://phillwait.github.io/primeTimeApplication/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "postbuild": "xcopy dist\\prime-time-client\\* . /s /e /y",
-    "build": "ng build",
+    "build": "ng build && npm run format",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "format": "npx prettier --write \"src/**/*.ts\" \"src/**/*.html\" \"src/**/*.scss\""
