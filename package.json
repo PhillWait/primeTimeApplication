@@ -1,12 +1,14 @@
 {
-  "name": "practice-web-app",
+  "name": "primte-time-client",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "postbuild": "xcopy dist\\prime-time-client\\* . /s /e /y",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "format": "npx prettier --write \"src/**/*.ts\" \"src/**/*.html\" \"src/**/*.scss\""
   },
   "private": true,
   "dependencies": {
