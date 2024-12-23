@@ -1,0 +1,42 @@
+<div class="card flex justify-center">
+  <p-drawer #drawerRef [(visible)]="visible">
+    <ng-template #headless>
+      <div class="logo" >
+        <img ngSrc="assets/icons/peachIcon.svg" width="50" height="50" alt="peach"/>
+        <h1> PrimeTime </h1>
+      </div>
+      <ul class="ul">
+        <li>
+          <span>Home</span>
+        </li>
+        <li>
+          <span>Mails</span>
+        </li>
+        <li>
+          <span>Profile</span>
+        </li>
+        <li>
+          <span>Status</span>
+        </li>
+        <li>
+          <span>Couplen</span>
+        </li>
+        <li>
+          <span>Calendar</span>
+        </li>
+        <li>
+          <span>Sexy Time</span>
+        </li>
+        <li>
+          <span>Sex Date</span>
+        </li>
+        <li>
+          <span>Log Out</span>
+        </li>
+      </ul>
+    </ng-template>
+  </p-drawer>
+  <button (click)="visible = true">
+    <img ngSrc="assets/icons/burger-menu.svg" width="45" height="45" alt="peach"/>
+  </button>
+</div>

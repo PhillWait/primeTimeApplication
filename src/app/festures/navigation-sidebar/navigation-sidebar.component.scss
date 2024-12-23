@@ -1,0 +1,36 @@
+button {
+  background: none;
+  border: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 20px 0 20px;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 0 20px 25px;
+  font-size: 35px;
+
+  li {
+    padding-top: 15px;
+
+
+    &:last-child {
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+    }
+  }
+}
+
+
