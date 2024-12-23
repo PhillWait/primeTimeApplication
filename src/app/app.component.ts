@@ -10,5 +10,5 @@ import {NavigationSidebarComponent} from './features/navigation-sidebar/navigati
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'practiceWebApp';
+  title = 'primeTimeApplication';
 }
