@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1734980401964,
-  "index": "https://phillwait.github.io/primeTimeApplication/index.html",
+  "timestamp": 1734981238725,
+  "index": "/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://phillwait.github.io/primeTimeApplication/chunk-GCGU7HUQ.js",
-        "https://phillwait.github.io/primeTimeApplication/chunk-O6Z32FJP.js",
-        "https://phillwait.github.io/primeTimeApplication/index.html",
-        "https://phillwait.github.io/primeTimeApplication/main-VTCBO5X4.js",
-        "https://phillwait.github.io/primeTimeApplication/manifest.webmanifest",
-        "https://phillwait.github.io/primeTimeApplication/polyfills-FFHMD2TL.js",
-        "https://phillwait.github.io/primeTimeApplication/styles-V3EIJRZQ.css"
+        "/chunk-GCGU7HUQ.js",
+        "/chunk-O6Z32FJP.js",
+        "/index.html",
+        "/main-Q6P4R34D.js",
+        "/manifest.webmanifest",
+        "/polyfills-FFHMD2TL.js",
+        "/styles-V3EIJRZQ.css"
       ],
       "patterns": []
     },
@@ -29,23 +29,23 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://phillwait.github.io/primeTimeApplication/assets/icons/burger-menu.svg",
-        "https://phillwait.github.io/primeTimeApplication/assets/icons/peachIcon.svg"
+        "/assets/icons/burger-menu.svg",
+        "/assets/icons/peachIcon.svg"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://phillwait.github.io/primeTimeApplication/assets/icons/burger-menu.svg": "f24aed7889bac6ff4b1f6c7e66c9b3afe0012f77",
-    "https://phillwait.github.io/primeTimeApplication/assets/icons/peachIcon.svg": "d81682b4a71cc69ce1856f44617a35286c0e2c92",
-    "https://phillwait.github.io/primeTimeApplication/chunk-GCGU7HUQ.js": "394c5b5f5616c64b657c8dc07902e4794f0e6a7a",
-    "https://phillwait.github.io/primeTimeApplication/chunk-O6Z32FJP.js": "940a0034188a53849288ab4ad749fa0b0e19ed44",
-    "https://phillwait.github.io/primeTimeApplication/index.html": "24fa8e80b3d2048494b5dcc9553c3647043d5bfc",
-    "https://phillwait.github.io/primeTimeApplication/main-VTCBO5X4.js": "a7c27524de3b42e6dada113d7647a53b67c38d4f",
-    "https://phillwait.github.io/primeTimeApplication/manifest.webmanifest": "7c0bafad83b4f3bd13b7036507938ca19753ed68",
-    "https://phillwait.github.io/primeTimeApplication/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
-    "https://phillwait.github.io/primeTimeApplication/styles-V3EIJRZQ.css": "5e301e723efcd47962cbacaec2408d088cdf081d"
+    "/assets/icons/burger-menu.svg": "f24aed7889bac6ff4b1f6c7e66c9b3afe0012f77",
+    "/assets/icons/peachIcon.svg": "d81682b4a71cc69ce1856f44617a35286c0e2c92",
+    "/chunk-GCGU7HUQ.js": "394c5b5f5616c64b657c8dc07902e4794f0e6a7a",
+    "/chunk-O6Z32FJP.js": "940a0034188a53849288ab4ad749fa0b0e19ed44",
+    "/index.html": "59ed517a9a921f36aaea2befa8d902dabfa5c889",
+    "/main-Q6P4R34D.js": "a7c27524de3b42e6dada113d7647a53b67c38d4f",
+    "/manifest.webmanifest": "7c0bafad83b4f3bd13b7036507938ca19753ed68",
+    "/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "/styles-V3EIJRZQ.css": "5e301e723efcd47962cbacaec2408d088cdf081d"
   },
   "navigationUrls": [
     {
