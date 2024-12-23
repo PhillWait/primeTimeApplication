@@ -1,7 +1,7 @@
 {
   "name": "Prime Time Application",
   "short_name": "PrimeTime",
-  "start_url": "github.io/primTimeApplication",
+  "start_url": "github.io/primTimeApplication/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
