@@ -39,6 +39,7 @@
           },
           "configurations": {
             "production": {
+              "outputPath": "/docs",
               "budgets": [
                 {
                   "type": "initial",

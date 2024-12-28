@@ -1,6 +1,7 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component, signal, ViewChild } from '@angular/core';
 import { Drawer } from 'primeng/drawer';
 import { NgOptimizedImage } from '@angular/common';
+import { NavigationItems } from './model/navigation-sidebar.model';
 
 @Component({
   selector: 'app-navigation-sidebar',
@@ -10,6 +11,8 @@ import { NgOptimizedImage } from '@angular/common';
 })
 export class NavigationSidebarComponent {
   @ViewChild('drawerRef') drawerRef!: Drawer;
+
+  menuItems = signal<any[]>(NavigationItems);
 
   closeCallback(e: any): void {
     this.drawerRef.close(e);

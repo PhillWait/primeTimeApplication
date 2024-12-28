@@ -4,40 +4,18 @@
       <div class="logo">
         <img
           ngSrc="assets/icons/peachIcon.svg"
-          width="50"
-          height="50"
+          width="35"
+          height="35"
           alt="peach"
         />
-        <h1>PrimeTime</h1>
+        <h3>PrimeTime</h3>
       </div>
       <ul class="ul">
-        <li>
-          <span>Home</span>
-        </li>
-        <li>
-          <span>Mails</span>
-        </li>
-        <li>
-          <span>Profile</span>
-        </li>
-        <li>
-          <span>Status</span>
-        </li>
-        <li>
-          <span>Couplen</span>
-        </li>
-        <li>
-          <span>Calendar</span>
-        </li>
-        <li>
-          <span>Sexy Time</span>
-        </li>
-        <li>
-          <span>Sex Date</span>
-        </li>
-        <li>
-          <span>Log Out</span>
-        </li>
+        @for (item of menuItems(); track item.id) {
+          <li>
+            <span>{{ item.label }}</span>
+          </li>
+        }
       </ul>
     </ng-template>
   </p-drawer>

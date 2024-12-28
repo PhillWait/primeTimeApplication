@@ -5,8 +5,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "postbuild": "xcopy dist\\prime-time-client\\* . /s /e /y",
     "build": "ng build && npm run format",
+    "build-prod": "ng build --configuration production && npm run format",
     "deploy-ghp": "ngh --dir=dist/prime-time-client",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
