@@ -6,7 +6,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build && npm run format",
-    "build-prod": "ng build --configuration production && npm run format",
+    "build-docs": "ng build --output-path docs --base-href /primeTimeApplication/",
     "deploy-ghp": "ngh --dir=dist/prime-time-client",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
