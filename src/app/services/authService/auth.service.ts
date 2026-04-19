@@ -19,7 +19,7 @@ export class AuthService {
   login(username: string, password: string): boolean {
     const users = this.getStoredUsers();
     const user = users.find(
-      (u) => u.username === username && u.password === password
+      (u) => u.username === username && u.password === password,
     );
     if (user) {
       const authUser: AuthUser = { username: user.username };

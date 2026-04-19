@@ -10,14 +10,14 @@ export const routes: Routes = [
     path: 'login',
     loadComponent: () =>
       import('./features/auth/login/login.component').then(
-        (m) => m.LoginComponent
+        (m) => m.LoginComponent,
       ),
   },
   {
     path: 'signup',
     loadComponent: () =>
       import('./features/auth/signup/signup.component').then(
-        (m) => m.SignupComponent
+        (m) => m.SignupComponent,
       ),
   },
   // Placeholder für spätere Routes
