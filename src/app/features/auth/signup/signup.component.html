@@ -1,0 +1,52 @@
+<div class="auth-screen">
+  <div class="status-bar">
+    <span class="status-time">9:41</span>
+    <div class="dynamic-island"></div>
+    <div class="status-icons">
+      <span class="signal-icon">●●●</span>
+      <span class="wifi-icon">▲</span>
+      <span class="battery-icon">▬</span>
+    </div>
+  </div>
+
+  <div class="header">
+    <h1 class="app-title">Prime Time</h1>
+    <span class="peach-icon">🍑</span>
+  </div>
+
+  <div class="form-section">
+    <h2 class="form-title">Sign Up</h2>
+
+    <div class="inputs">
+      <input
+        class="input-field"
+        type="text"
+        placeholder="Username"
+        [(ngModel)]="username"
+        name="username"
+      />
+      <input
+        class="input-field"
+        type="password"
+        placeholder="Password"
+        [(ngModel)]="password"
+        name="password"
+      />
+      <input
+        class="input-field"
+        type="password"
+        placeholder="Repeat Password"
+        [(ngModel)]="repeatPassword"
+        name="repeatPassword"
+      />
+    </div>
+
+    @if (errorMessage) {
+      <p class="error-message">{{ errorMessage }}</p>
+    }
+
+    <button class="submit-btn" (click)="onSignUp()">confirm</button>
+
+    <a class="login-link" routerLink="/login">Already have an account? Log In</a>
+  </div>
+</div>
